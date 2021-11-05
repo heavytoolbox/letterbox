@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '26d96d9b3ed5fed66516512b0b9fe268e345d09c',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -85,11 +85,38 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/antibot' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/antibot',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/asset_injector' => array(
+            'pretty_version' => '2.7.0',
+            'version' => '2.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/asset_injector',
+            'aliases' => array(),
+            'reference' => '8.x-2.7',
+            'dev_requirement' => false,
+        ),
         'drupal/automated_cron' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/backup_migrate' => array(
+            'pretty_version' => '5.0.1',
+            'version' => '5.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/backup_migrate',
+            'aliases' => array(),
+            'reference' => '5.0.1',
+            'dev_requirement' => false,
         ),
         'drupal/ban' => array(
             'dev_requirement' => false,
@@ -108,6 +135,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/better_social_sharing_buttons' => array(
+            'pretty_version' => '3.2.0',
+            'version' => '3.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/better_social_sharing_buttons',
+            'aliases' => array(),
+            'reference' => '8.x-3.2',
+            'dev_requirement' => false,
         ),
         'drupal/big_pipe' => array(
             'dev_requirement' => false,
@@ -132,6 +168,24 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/bootstrap5' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/bootstrap5',
+            'aliases' => array(),
+            'reference' => '1.0.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap_ce' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/bootstrap_ce',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -400,6 +454,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -417,6 +480,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/ds' => array(
+            'pretty_version' => '3.13.0',
+            'version' => '3.13.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/ds',
+            'aliases' => array(),
+            'reference' => '8.x-3.13',
+            'dev_requirement' => false,
         ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
@@ -466,11 +538,56 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/fivestar' => array(
+            'pretty_version' => '1.0.0-alpha2',
+            'version' => '1.0.0.0-alpha2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/fivestar',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha2',
+            'dev_requirement' => false,
+        ),
+        'drupal/formblock' => array(
+            'pretty_version' => '2.0.0-beta2',
+            'version' => '2.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/formblock',
+            'aliases' => array(),
+            'reference' => '2.0.0-beta2',
+            'dev_requirement' => false,
+        ),
         'drupal/forum' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/geofield' => array(
+            'pretty_version' => '1.34.0',
+            'version' => '1.34.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/geofield',
+            'aliases' => array(),
+            'reference' => '8.x-1.34',
+            'dev_requirement' => false,
+        ),
+        'drupal/geofield_map' => array(
+            'pretty_version' => '2.70.0',
+            'version' => '2.70.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/geofield_map',
+            'aliases' => array(),
+            'reference' => '8.x-2.70',
+            'dev_requirement' => false,
+        ),
+        'drupal/geolocation' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/geolocation',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
         ),
         'drupal/hal' => array(
             'dev_requirement' => false,
@@ -533,12 +650,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '26d96d9b3ed5fed66516512b0b9fe268e345d09c',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -565,6 +682,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/menu_link_attributes' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/menu_link_attributes',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
+        ),
         'drupal/menu_link_content' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -576,6 +702,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/metatag' => array(
+            'pretty_version' => '1.16.0',
+            'version' => '1.16.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/metatag',
+            'aliases' => array(),
+            'reference' => '8.x-1.16',
+            'dev_requirement' => false,
         ),
         'drupal/migrate' => array(
             'dev_requirement' => false,
@@ -631,6 +766,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/pager' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/pager',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
         'drupal/path' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -643,11 +787,29 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.8',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/rate' => array(
+            'pretty_version' => '2.0.0-beta1',
+            'version' => '2.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/rate',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/rdf' => array(
             'dev_requirement' => false,
@@ -690,6 +852,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/share_everywhere' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/share_everywhere',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
         ),
         'drupal/shortcut' => array(
             'dev_requirement' => false,
@@ -745,6 +916,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/token' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -787,6 +967,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/votingapi' => array(
+            'pretty_version' => '3.0.0-beta2',
+            'version' => '3.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/votingapi',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-beta2',
+            'dev_requirement' => false,
+        ),
         'drupal/webform' => array(
             'pretty_version' => '6.0.5',
             'version' => '6.0.5.0',
@@ -794,6 +983,26 @@
             'install_path' => __DIR__ . '/../../modules/contrib/webform',
             'aliases' => array(),
             'reference' => '6.0.5',
+            'dev_requirement' => false,
+        ),
+        'drupal/webform_views' => array(
+            'pretty_version' => '5.0.0-alpha8',
+            'version' => '5.0.0.0-alpha8',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/webform_views',
+            'aliases' => array(),
+            'reference' => '8.x-5.0-alpha8',
+            'dev_requirement' => false,
+        ),
+        'drupal/webform_workflows_element' => array(
+            'pretty_version' => 'dev-1.0.x',
+            'version' => 'dev-1.0.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/webform_workflows_element',
+            'aliases' => array(
+                0 => '1.0.x-dev',
+            ),
+            'reference' => 'b6eda7b1ceb331293825c4ddf018c44d3d42bf86',
             'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
@@ -932,6 +1141,15 @@
             'install_path' => __DIR__ . '/../pear/pear_exception',
             'aliases' => array(),
             'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
+            'dev_requirement' => false,
+        ),
+        'phayes/geophp' => array(
+            'pretty_version' => '1.2',
+            'version' => '1.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phayes/geophp',
+            'aliases' => array(),
+            'reference' => '015404e85b602e0df1f91441f8db0f9e98f7e567',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(
