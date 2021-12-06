@@ -1,11 +1,15 @@
+.paragraph-type-label,
 .paragraph-type-title {
   font-weight: $font-weight-bold;
 }
 
-.field--widget-paragraphs {
-  .paragraphs-dropdown-action {
-    &.button {
-      @include button-variant($secondary, $secondary);
+.paragraphs-dropdown-action {
+  &.button {
+    &.btn-primary {
+      background-color: $primary;
+    }
+    &.btn-danger {
+      background-color: $danger;
     }
   }
 }
@@ -14,5 +18,13 @@
 .field--widget-entity-reference-paragraphs {
   .field-add-more-submit {
     margin: 0;
+  }
+}
+
+.js {
+  .field--widget-entity-reference-paragraphs {
+    td {
+      padding: $spacer;
+    }
   }
 }

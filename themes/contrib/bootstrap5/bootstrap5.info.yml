@@ -13,6 +13,9 @@ ckeditor_stylesheets:
 
 stylesheets-remove:
   - '@classy/css/components/tabs.css'
+  - '@classy/css/components/button.css'
+  - '@classy/css/components/link.css'
+  - '@classy/css/layout/media-library.css'
 
 regions:
   header: Header
@@ -25,7 +28,7 @@ regions:
   sidebar_second: 'Sidebar second'
   footer: Footer
 
-# Information added by Drupal.org packaging script on 2021-08-01
-version: '1.0.0'
+# Information added by Drupal.org packaging script on 2021-11-16
+version: '1.1.2'
 project: 'bootstrap5'
-datestamp: 1627820797
+datestamp: 1637075154
